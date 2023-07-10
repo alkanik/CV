@@ -82,7 +82,7 @@ a {
     .dots-block {
         display: flex;
         flex-direction: column;
-         margin-left: 20px;
+        margin-left: 20px;
     }
 
     .dots {
@@ -90,7 +90,7 @@ a {
         margin: 11px 5px 10px 0;
     }
 
-    .lang-names {
+    .dots-names {
         margin: 10px 5px 10px 0;
     }
 
@@ -100,9 +100,20 @@ a {
         border-radius: 50%;
         margin: 0 1px;
     }
-    .lang {
+    .dots-container {
         display: flex;
     }
+
+    .experience-container {
+        display: grid;
+        grid-template-columns: 130px auto;
+        grid-gap: 10px;
+    }
+
+    .a, .c, .e {
+        margin: 30px 0;
+        font-size: 90%;
+      }
 
     .skills {
         display: flex;
@@ -111,6 +122,7 @@ a {
     .skills-left {
         width: 50%;
     }
+
 
 
     
